@@ -90,7 +90,10 @@ function CabinRow({ cabin }) {
           <button onClick={handleDuplicate}>
             <HiSquare2Stack />
           </button>
-          <button onClick={() => setShowForm(() => !showForm)}>
+          <button
+            onClick={() => setShowForm(() => !showForm)}
+            disabled={isCreating}
+          >
             <HiPencil />
           </button>
           <button onClick={() => deleteCabin(cabinId)} disabled={isDeleting}>

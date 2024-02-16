@@ -37,7 +37,7 @@ To set up the project locally, follow these steps:
 
 1. Clone the repository:
 
-    ```https://github.com/ShawnRSidwell/portfolio.git```
+    ```https://github.com/ShawnRSidwell/the-wild-oasis.git```
 
 2. Navigate to the project directory:
 

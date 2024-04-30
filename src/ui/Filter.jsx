@@ -40,6 +40,7 @@ function Filter({ filterField, options }) {
 
   function handleClick(event) {
     searchParams.set(filterField, event);
+    if (searchParams.get("page")) searchParams.set("page", 1);
     setSearchParams(searchParams);
   }
 
